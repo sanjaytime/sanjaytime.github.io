@@ -1,1 +1,26 @@
-Hello World
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+  <h1 class="center">Hey &#9996;&#127998 &#9996;&#127998 &#9996;&#127998 &#9996;&#127998</h1>
+    <img src="{% static  '/img/sanj_2022.jpg' %}" alt="me" class="center img-fluid rounded-circle h-25">
+    <div class="pb-2"></div>
+    <body class="text-center">
+    I'm Sanjay.  I am an <a href="http://www.sanjaynara.com/music/">audio
+      engineer, music producer</a> and <a
+      href="https://github.com/sanjaytime">software developer</a>.
+    <div class="pb-2"></div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <button id="emailButton" class="fa fa-envelope-o fa-2x btn"></button>
+    <a href="https://github.com/sanjaytime" class="fa fa-github fa-2x btn"></a>
+    <a href="https://www.instagram.com/sanjaynara_" class="fa fa-instagram fa-2x btn"></a>
+    <a href="https://open.spotify.com/artist/4U7yOkmsOj1cMYDG7JibGI?si=6ej0Ciq-TLWZOmvwrb6r9Q" class="fa fa-spotify fa-2x btn"></a>
+    <a href="https://www.linkedin.com/in/sanjay1narayanan/" class="fa fa-linkedin fa-2x btn"></a>
+    <div class="pb-2"></div>
+    <a class="btn btn-outline-primary btn-sm rounded" onclick="getQuote()"><small>Get a Kanye Quote</small></a>
+    <div class="pb-2"></div>
+    <p class="font-italic"><small>Warning: sometimes NSFW</small></p>
+    <code><small><span id="quote" ></span></small></code>
+    <script src="{% static '/js/index.js' %}"></script>
+
+
+{% endblock %}
