@@ -1,4 +1,12 @@
 site url:
 https://sanjaytime.github.io/
 
+docker build -t nara-static-site .
+
+
+
+run docker container
+
+
+
 1. install ruby :`brew install ruby`
