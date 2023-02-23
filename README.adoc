@@ -1,0 +1,4 @@
+site url:
+https://sanjaytime.github.io/
+
+1. install ruby :`brew install ruby`
