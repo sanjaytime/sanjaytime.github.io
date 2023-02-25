@@ -17,3 +17,5 @@ RUN sudo gem install bundler
 # Install gems
 RUN bundle install
 
+# Install vim
+RUN sudo apt install vim
