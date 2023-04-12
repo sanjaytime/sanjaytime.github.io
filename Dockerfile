@@ -1,21 +1,9 @@
 # syntax=docker/dockerfile:1
-FROM ubuntu:22.10
-COPY . /app
+FROM ruby:2.7-alpine3.15
 
-WORKDIR /app
+# Add Jekyll dependencies to Alpine
+RUN apk update
+RUN apk add --no-cache build-base gcc cmake git
 
-# Enable sudo commands
-RUN apt-get update && \
-      apt-get -y install sudo
-
-# Install Ruby
-RUN sudo apt-get -y install ruby-full build-essential zlib1g-dev
-
-# Install Bundler
-RUN sudo gem install bundler
-
-# Install gems
-RUN bundle install
-
-# Install vim
-RUN sudo apt install vim
+# Update the Ruby bundler and install Jekyll
+RUN gem update bundler && gem install bundler jekyll
