@@ -1,20 +1,31 @@
-site url:
+# site url:
 https://sanjaytime.github.io/
 
 
-bundle init
+# Start a local server:
 
-# --- Decision time!
-# Either install Jekyll 3.9.x for for official GitHub Pages support
-bundle add jekyll --version "~>3.9.0"
+```
+docker run -p 4000:4000 -v $(pwd):/site bretfisher/jekyll-serve
+```
 
-# Or install the latest version of Jekyll 4.x
-bundle add jekyll --version "~>4"
-# ---
+# Install dependencies:
 
-bundle install
-bundle update
-bundle exec jekyll new --force --skip-bundle .
-bundle add webrick
-bundle install
-bundle update
+### Launch interactive shell
+
+```
+docker run -v $(pwd):/site -it --entrypoint bash bretfisher/jekyll
+```
+
+### install ruby items
+
+```
+bundle install --retry 5 --jobs 20
+bundle exec jekyll build
+```
+
+
+
+
+# Docker Image Reference
+
+https://github.com/BretFisher/jekyll-serve
