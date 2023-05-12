@@ -1,12 +1,13 @@
-# frozen_string_literal: true
+source 'https://rubygems.org'
 
-source "https://rubygems.org"
+group :jekyll_plugins do
+    gem 'github-pages'
+    gem 'jekyll-seo-tag'
+    gem 'jekyll-gist'
+    gem 'jekyll-feed'
+    gem 'jemoji'
+    gem "jekyll-paginate-v2", "~> 2.0"
+    gem "html-proofer"
+end
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-
-# gem "rails"
-
-gem "jekyll", "~> 4.3"
-gem "rouge", "3.30.0"
-gem "webrick", "1.8.1"
-
+gem "webrick", "~> 1.7"
