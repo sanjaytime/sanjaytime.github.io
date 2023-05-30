@@ -1,8 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    academic-jekyll-theme (1.0.0)
-      jekyll (~> 4.2)
     addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
     colorator (1.1.0)
@@ -74,7 +72,6 @@ PLATFORMS
   aarch64-linux
 
 DEPENDENCIES
-  academic-jekyll-theme
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.2)
   jekyll-feed (~> 0.12)

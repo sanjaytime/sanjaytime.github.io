@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi I'm Sanjay Narayanan.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I am a software engineer that is interested in the Data Engineering and artificial intelligence spaces.  I am using this site to share prompts and responses from various large-language models, and potentially share any tools that I have built.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I built this site using [jekyll](https://jekyllrb.com/) and [github pages](https://pages.github.com/).  You can find the source code for this [site here](https://github.com/sanjaytime/sanjaytime.github.io). 

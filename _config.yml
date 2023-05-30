@@ -20,14 +20,14 @@
 
 title: Sanjay Narayanan
 email: sanjay1narayanan@gmail.com
-description: Sanjay Narayanan's personal portfolio site.
+description: Sanjay's personal site.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "sanjaytime.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  sanjaytime
 
 # Build settings
-theme: academic-jekyll-theme
+theme: minima
 plugins:
   - jekyll-feed
 
