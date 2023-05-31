@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Undoing Gender book summary by LLM"
+title:  "Data Engineer Job Market Analysis by LLM"
 date:   2023-05-01 19:37:14 +0000
 categories: LLM Prompts and Responses
 ---
