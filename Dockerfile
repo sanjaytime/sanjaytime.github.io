@@ -24,5 +24,9 @@ FROM jekyll as jekyll-serve
 # on every container start, check if Gemfile exists and warn if it's missing
 ENTRYPOINT [ "docker-entrypoint.sh" ]
 
+
+
+RUN bundle install --retry 5 --jobs 20
+
 CMD [ "bundle", "exec", "jekyll", "serve", "--trace",  "--force_polling", "-H", "0.0.0.0", "-P", "4000" ]
 
