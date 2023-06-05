@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Granular synthesis audio plugin"
-date:   2023-06-04 07:30:11 +0000
+date:   2023-06-04 01:30:11 +0000
 categories: LLM Prompts and Responses
 ---
 
