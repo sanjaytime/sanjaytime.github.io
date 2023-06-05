@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sanjay Narayanan
+title: Sanjay's Blog and Prompt Archive
 email: sanjay1narayanan@gmail.com
-description: Sanjay's personal site.
+description: Welcome to my personal site! - Sanjay
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "sanjaytime.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
