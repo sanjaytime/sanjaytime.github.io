@@ -65,3 +65,9 @@ A: Adopt flexible working hours and make use of asynchronous communication tools
 A: Address the issue openly and honestly. Understand the reasons behind their lack of contribution and work together to find a solution.
 
 #### Q: How do we keep the team motivated throughout the
+
+ project?
+A: Regularly share the progress and celebrate small wins. Encourage feedback and ensure that every team member feels valued.
+
+[^1^]: Robbins, S. P., & Judge, T. (2017). Organizational Behavior.
+[^2^]: Amabile, T. M., & Kramer, S. J. (2011). The Progress Principle: Using Small Wins to Ignite Joy, Engagement, and Creativity at Work.
